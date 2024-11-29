@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flashcards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: O que caracteriza uma função trigonométrica e quais são os tipos mais comuns?</div>
+            <div class="back">Resposta: Uma função trigonométrica é uma relação matemática que relaciona os ângulos de um triângulo com as proporções de seus lados. Os tipos mais comuns são seno (sin), cosseno (cos) e tangente (tan). Outras funções relacionadas incluem cotangente (cot), secante (sec) e cossecante (csc).</div>
+        </div>
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: Qual é o domínio e o contradomínio da função seno?</div>
+            <div class="back">Resposta: O domínio da função seno é R (todos os números reais), já que pode ser avaliada para qualquer valor de ângulo. O contradomínio é o intervalo [−1,1], pois o valor do seno de um ângulo nunca excede esses limites.</div>
+        </div>
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: Existe uma equação que relaciona seno e cosseno para qualquer ângulo?</div>
+            <div class="back">Resposta: Sim, a relação fundamental é dada pela identidade trigonométrica: sin²(x) + cos²(x) = 1. Esta equação é válida para qualquer ângulo x.</div>
+        </div>
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: Como definimos a função tangente de um ângulo?</div>
+            <div class="back">Resposta: A tangente (tan) é definida como a razão entre o seno e o cosseno de um ângulo: tan(x) = sin(x) / cos(x). Vale lembrar que a tangente não está definida quando cos(x) = 0, pois isso resultaria em uma divisão por zero.</div>
+        </div>
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: Qual é o período das funções seno e cosseno?</div>
+            <div class="back">Resposta: O período das funções seno e cosseno é 2π. Isso significa que seus valores se repetem a cada 2π unidades de ângulo.</div>
+        </div>
+        <div class="flashcard" onclick="flipcard(this)">
+            <div class="front">Pergunta: Quais são as derivadas das funções seno e cosseno?</div>
+            <div class="back">Resposta: As derivadas das funções seno e cosseno são: d/dx [sin(x)] = cos(x) e d/dx [cos(x)] = -sin(x).</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
